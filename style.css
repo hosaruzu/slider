@@ -24,7 +24,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  transition: transform 0.5s ease-in-out;
+  transition: transform .5s ease-in-out;
 }
 
 .sidebar > div {
@@ -38,9 +38,11 @@ body {
 }
 
 .sidebar h1 {
-  font-size: 40px;
+  font-size: 36px;
   margin-bottom: 10px;
   margin-top: -30px;
+  padding-left: 10px;
+  text-align: center;
 }
 
 .main-slide {
@@ -49,7 +51,7 @@ body {
   top: 0;
   left: 35%;
   width: 65%;
-  transition: transform 0.5s ease-in-out;
+  transition: transform .5s ease-in-out;
 }
 
 .main-slide > div {
@@ -88,10 +90,14 @@ button:focus {
   transform: translateX(-100%);
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+  transition: .2s all;
 }
 
 .container .controls .up-button {
   transform: translateY(-100%);
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  transition: .2s all;
 }
+
+
